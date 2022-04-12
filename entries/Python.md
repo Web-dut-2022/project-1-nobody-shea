@@ -1,3 +1,3 @@
-# Python
-
-Python is a programming language that can be used both for writing **command-line scripts** or building **web applications**.
+# Python
+
+Python, an interpreted, interactive, object-oriented computer programming language, was created by Guido van Rossum and named after Monty Pythons' Flying Circus.
