@@ -9,9 +9,10 @@
   * 编辑条目
   * 显示随机条目
   * Markdown到HTML的转换
+
 *注：创建新条目及编辑条目时，title为空是非法的*
 
 运行
-```python
+``python
 >> python manage.py runserver
-```
+``
