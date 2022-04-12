@@ -13,6 +13,6 @@
 *注：创建新条目及编辑条目时，title为空是非法的*
 
 运行
-``python
+```python
 >> python manage.py runserver
-``
+```
