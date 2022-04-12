@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Entry</title>
+</head>
+<body>
+    <h1>Create New Entry</h1>
+    <form action="createEntry">
+        <div style="float: left;height: 30px; width: 90px;padding-left: 10px; text-align: left;line-height: 30px;">Title: </div>
+        <div>
+            <input class="search" style=" height: 24px; width: 200px;" type="text" name="title" placeholder="input the Title of new entry" required="required">     
+        </div>
+        <div style="height: 10px;"></div>
+        <div style="float: left;height: 30px; width: 90px;padding-left: 10px; text-align: left;line-height: 30px;">
+            Content: 
+        </div>
+        <div>
+            <textarea style="height: 500px;" rows="30" cols="50" name="content" placeholder="input the Content of new entry"></textarea>
+        </div>
+        <div style="float: left; padding-left: 100px; padding-top: 8px; line-height: 30px;">
+            <a style=" text-decoration: none;" href="{% url 'index' %}">Exit</a>
+        </div>
+        <div style="padding-left: 362px; padding-top: 8px;">
+            <input style="height: 30px;" type="submit" value="Create New Entry">
+        </div>
+    </form>
+</body>
+</html>

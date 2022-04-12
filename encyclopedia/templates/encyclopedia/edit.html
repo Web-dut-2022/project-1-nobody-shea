@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Entry</title>
+</head>
+<body>
+    <h1>Edit Entry Here</h1>
+    <form action="../../editEntry">
+        <div style="float: left;height: 30px; width: 90px;padding-left: 10px; text-align: left;line-height: 30px;">Title: </div>
+        <div>
+            <input class="search" style=" height: 24px; width: 200px;" type="text" name="title" value="{{ title }}" required="required">     
+        </div>
+        <div style="height: 10px;"></div>
+        <div style="float: left;height: 30px; width: 90px;padding-left: 10px; text-align: left;line-height: 30px;">
+            Content: 
+        </div>
+        <div>
+            <textarea style="height: 500px;" rows="30" cols="50" name="content">{{ content }}</textarea>
+        </div>
+        <div style="float: left; padding-left: 100px; padding-top: 8px; line-height: 30px;">
+            <a style=" text-decoration: none;" href="../../wiki/{{ title }}">Exit</a>
+        </div>
+        <div style="padding-left: 386px; padding-top: 8px;">
+            <input style="height: 30px;" type="submit" value="Save Change">
+        </div>
+    </form>
+</body>
+</html>
